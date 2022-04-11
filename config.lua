@@ -14,6 +14,39 @@ Config.Distance = 15.0 --The distance you want peds to spawn at
 Config.MinusOne = true
 
 Config.PedList = {
+	{
+		model = "s_m_y_ammucity_01", --The model name. See above for the URL of the list.
+		coords = vector3(1853.0923, 3689.4941, 34.2670), --HAIR ON HAWICK AVE
+		heading = 213.3450, --Must be a float value. This means it needs a decimal and a number after the decimal.
+		gender = "male", --Use male or female
+		--animDict = "", --The animation dictionary. Optional. Comment out or delete if not using.
+		--animName = "", --The animation name. Optional. Comment out or delete if not using.
+	    isRendered = false,
+        ped = nil,
+    },
+	{
+		model = "g_m_m_korboss_01", --The model name. See above for the URL of the list.
+		coords = vector3(1849.5936, 3687.7683, 34.2670), --HAIR ON HAWICK AVE
+		heading = 215.6939, --Must be a float value. This means it needs a decimal and a number after the decimal.
+		gender = "female", --Use male or female
+		--animDict = "", --The animation dictionary. Optional. Comment out or delete if not using.
+		--animName = "", --The animation name. Optional. Comment out or delete if not using.
+	    isRendered = false,
+        ped = nil,
+    },
+	{
+		model = "ig_chef", --The model name. See above for the URL of the list.
+		coords = vector3(1858.2488, 3686.7515, 34.2671), --HAIR ON HAWICK AVE
+		heading = 120.6895, --Must be a float value. This means it needs a decimal and a number after the decimal.
+		gender = "female", --Use male or female
+		--animDict = "", --The animation dictionary. Optional. Comment out or delete if not using.
+		--animName = "", --The animation name. Optional. Comment out or delete if not using.
+	    isRendered = false,
+        ped = nil,
+    },
+}
+
+Config.PedListOLD = {
 	----------------------------------------
 	---          BARBER SHOPS            ---
 	----------------------------------------
